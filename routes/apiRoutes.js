@@ -1,8 +1,7 @@
 const router = require("express").Router;
-let noteArr = require("../db/db");
-const addNote = require("../db/store");
+let {noteArr} = require("../Develop/db/db.json");
+const addNote = require("../Develop/db/store");
 
-//get routes that return notes and index pages.
 router.get("/notes", (req, res) => {
   let results = noteArr;
   res.json(results);
@@ -14,7 +13,7 @@ router.post("/notes", (req, res) => {
   } else {
     req.body.id = 0;
   }
-  res.json(addNote(req.body, notesArr));
+  res.json(addNote(req.body, noteArr));
 });
 
 module.exports = router;
