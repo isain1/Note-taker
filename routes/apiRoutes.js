@@ -1,4 +1,5 @@
-const router = require('express').Router;
+const express = require('express');
+const router = express.Router();
 let {noteArr} = require('../db/db');
 const addNote = require('../db/store');
 
@@ -17,3 +18,4 @@ router.post("/notes", (req, res) => {
 });
 
 module.exports = router;
+
