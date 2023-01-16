@@ -1,6 +1,6 @@
-const router = require("express").Router;
-let {noteArr} = require("../Develop/db/db.json");
-const addNote = require("../Develop/db/store");
+const router = require('express').Router;
+let {noteArr} = require('../db/db');
+const addNote = require('../db/store');
 
 router.get("/notes", (req, res) => {
   let results = noteArr;
