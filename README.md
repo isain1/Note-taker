@@ -6,4 +6,4 @@ This is a Nodejs and ExpressJs powered application that is used to create notes.
 
 ## Image of application
 
-![This is what the application looks like](https://github.com/isain1/Note-takerp/blob/img/Application-screenshot.PNG)
+![Note Taker example](github.com/isain1/Note-taker/blob/main/img/Application-screenshot.png)
