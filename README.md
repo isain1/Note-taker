@@ -6,3 +6,7 @@ This is a Nodejs and ExpressJs powered application that is used to create notes.
 
 ## Image of application
 ![Note example](./img/Application-screenshot.PNG)
+
+## Link to Deployed Application
+
+https://note-taker123456.herokuapp.com/
