@@ -1,7 +1,7 @@
 //Imports Express, and initiates the app on port 3001
 const express = require('express');
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 //Imports the route files
 const apiRoutes = require('./routes/apiRoutes');
